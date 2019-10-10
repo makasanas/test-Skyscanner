@@ -1,12 +1,7 @@
 import React, { Component } from 'react';
 import ReactPagniate from 'react-paginate';
 import clsx from 'clsx';
-
-import SideMenu from './SideMenu';
-import TagSwitcher from './TagSwitcher';
-import Post from './Post';
-import MakePost from './Modals/MakePost';
-
+import { TagSwitcher, SideMenu, Post, MakePost } from './Sections';
 import { isToday, sortByDate } from './../../helpers/Date';
 import { posts, currentUser } from './dummy.json';
 import IconSearch from './../../assets/images/ic_search_grey.png';
@@ -238,8 +233,8 @@ class Forum extends Component {
               {displayPosts.length > 0 ? (
                 displayPosts.map((post, id) => <Post key={id} post={post} />)
               ) : (
-                <span>This feed's empty, make a post</span>
-              )}
+                  <span>This feed's empty, make a post</span>
+                )}
             </div>
             {totalPages > 0 && this.renderPagination(totalPages)}
           </div>

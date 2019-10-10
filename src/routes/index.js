@@ -5,7 +5,7 @@ import Login from './../Containers/Login';
 import Products from './../Containers/Products';
 import ProductDetails from '../Containers/Products/ProductDetails';
 import Cart from '../Containers/Cart';
-import Forum from '../Containers/Forum/Forum';
+import Forum from '../Containers/Forum';
 import ProtectedRoute from './config/ProtectedRoutes';
 
 export default [

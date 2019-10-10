@@ -13,7 +13,7 @@ const SideMenu = ({ todayPosts, missions }) => (
           <div key={id} className="post">
             <div className="avatar">
               <img
-                src={require(`../../../${post.author.avatar}`)}
+                src={require(`./../../../../${post.author.avatar}`)}
                 alt="avatar"
               />
             </div>

@@ -1,9 +1,7 @@
 import React, { Component } from 'react';
 import clsx from 'clsx';
-
-import { currentUser } from '../dummy.json';
-
-import IconThumbup from './../../../assets/images/ic_thumbup_grey.png';
+import { currentUser } from '../../dummy.json';
+import IconThumbup from './../../../../assets/images/ic_thumbup_grey.png';
 import './styles.scss';
 
 class Comment extends Component {

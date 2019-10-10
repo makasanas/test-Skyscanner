@@ -1,10 +1,9 @@
 import React, { Component } from 'react';
-
 import AddComment from '../Modals/AddComment';
 import SendMessage from '../Modals/SendMessage';
+import IconComment from './../../../../assets/images/ic_comment_white.png';
+import IconThumbup from './../../../../assets/images/ic_thumbup_white.png';
 
-import IconComment from './../../../assets/images/ic_comment_white.png';
-import IconThumbup from './../../../assets/images/ic_thumbup_white.png';
 import './styles.scss';
 
 class Post extends Component {
@@ -71,7 +70,7 @@ class Post extends Component {
       <div className="post-wrapper" onClick={this.handleModalShow}>
         <div className="info">
           <div className="avatar">
-            <img src={require(`../../../${post.author.avatar}`)} alt="author" />
+            <img src={require(`./../../../../${post.author.avatar}`)} alt="author" />
           </div>
           {!isBackPacker && this.renderFeedBack(post)}
         </div>

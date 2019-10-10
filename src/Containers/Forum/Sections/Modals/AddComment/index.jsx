@@ -5,12 +5,12 @@ import clsx from 'clsx';
 import uuid from 'uuidv4';
 
 import Comment from '../../Comment';
-import { today, sortByDate } from './../../../../helpers/Date';
-import { isEmpty } from './../../../../helpers/Validate';
-import { currentUser } from '../../dummy.json';
+import { today, sortByDate } from './../../../../../helpers/Date';
+import { isEmpty } from './../../../../../helpers/Validate';
+import { currentUser } from '../../../dummy.json';
 
-import IconComment from './../../../../assets/images/ic_comment_grey.png';
-import IconThumbup from './../../../../assets/images/ic_thumbup_grey.png';
+import IconComment from './../../../../../assets/images/ic_comment_grey.png';
+import IconThumbup from './../../../../../assets/images/ic_thumbup_grey.png';
 import './styles.scss';
 
 ReactModal.setAppElement('#root');
@@ -203,7 +203,7 @@ class AddComment extends Component {
           <div className="left-pane">
             <div className="avatar">
               <img
-                src={require(`../../../../${post.author.avatar}`)}
+                src={require(`../../../../../${post.author.avatar}`)}
                 alt="avatar"
               />
             </div>

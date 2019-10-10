@@ -27,7 +27,7 @@ class SendMessage extends Component {
           <div className="left-pane">
             <div className="avatar">
               <img
-                src={require(`../../../../${post.author.avatar}`)}
+                src={require(`./../../../../../${post.author.avatar}`)}
                 alt="avatar"
               />
             </div>
