@@ -1,15 +1,11 @@
 import { Route } from 'react-router-dom';
-import Home from './../Containers/Home/Home';
-import About from './../Containers/About/About';
-import Login from './../Containers/Login/Login';
-import Products from '../Containers/Products/Products';
-import ProductDetails from '../Containers/Products/ProductDetails/ProductDetails';
-import Cart from '../Containers/Cart/Cart';
+import Home from '../Containers/Home';
+import About from './../Containers/About';
+import Login from './../Containers/Login';
+import Products from './../Containers/Products';
+import ProductDetails from '../Containers/Products/ProductDetails';
+import Cart from '../Containers/Cart';
 import Forum from '../Containers/Forum/Forum';
-
-
-
-// import Cart from '../views/Cart/Cart';
 import ProtectedRoute from './config/ProtectedRoutes';
 
 export default [

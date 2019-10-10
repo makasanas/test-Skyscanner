@@ -1,6 +1,5 @@
 import React from 'react';
-import TeamFull from './InnerSections/TeamFull';
-import TeamResp from './InnerSections/TeamResp';
+import { TeamFull, TeamResp } from './InnerSections';
 import './Team.scss';
 
 class Team extends React.Component{

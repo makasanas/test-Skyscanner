@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import BlogScroller from './InnerSections/BlogScroller';
+import BlogScroller from './InnerSections';
 
 import "./Services.scss"
 
