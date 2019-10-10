@@ -1,0 +1,40 @@
+nav {
+  position: absolute;
+  top: 10px;
+  width: 100%;
+  color: #fff;
+  z-index: 1000;
+
+  .nav {
+    list-style: none;
+    text-align:center;
+    position: relative;
+
+    li {
+      display:inline;
+      text-transform: uppercase;
+      margin: 0 60px 0 0;
+
+      .active {
+        border-bottom: 1px solid #F7AB68; 
+        padding-bottom: 5px;
+      }
+      a {
+        text-decoration: none;
+        color: #fff;
+
+        &:hover {
+          color: #eee;
+        }
+
+      }
+    }
+  }
+
+  .sign-in {
+    position: absolute;
+    text-transform: uppercase;
+    right: 80px;
+    bottom: 15px
+  }
+}
